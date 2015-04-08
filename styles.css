@@ -1,0 +1,33 @@
+.box{
+	width: 400px;
+	height: 250px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+	margin-top: 25px;
+	border: 2px solid black;
+}
+
+#right{
+	width: 50%;
+	height: 1000px;
+}
+
+#left{
+	width: 300px;
+}
+
+#left, #right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+textarea{
+	height: 100px;
+	width: 200px;
+}
+
+h2{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+}
